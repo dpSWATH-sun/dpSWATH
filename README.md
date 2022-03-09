@@ -1,7 +1,7 @@
 
 # dpSWATH
 dpSWATH is developed for building high quality library for SWATH-MS based on deep-learning.
-<div align=center><img src='/pics/dpSWATH_start.png'/></div>
+<div align=center><img src='/pics/dpSWATH-start.png'/></div>
 
 
 ## Major functions
