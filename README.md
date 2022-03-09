@@ -72,6 +72,11 @@ For the training of both dpRT and dpMS, only high quality data are used to train
 6) Put the absolute path of your `pretrained dpRT model` and  `DDA library` after corresponding prompt.
 7) The trained dpRT models can be found under folder `./working directory/dpSWATH/md/dpRT/XXX-XX-XX_XX_XX_XX_XXXXXX/`, please keep the best model based on the 'validation loss' for building library.
 
+
+  * The examples for training of dpRT model:
+<div align=center><img src='/pics/train_dpRT.PNG'/></div>
+
+
 ## Procedures to train models of dpMS
 1) Start using dpSWATH by opening command interpreter *`cmd.exe`* in windows platform or *`shell`* in Liux platform.
 2) Run dpSWATH by calling *`python`* program: `python dpSWATH_main.py`.
@@ -80,9 +85,6 @@ For the training of both dpRT and dpMS, only high quality data are used to train
 5) Next, please set your working directory after the prompt which will store all your trained dpRT models.
 6) Put the absolute path of your `pretrained dpMS model` and  `DDA fragmatation file from ProteinPilot` after corresponding prompt.
 7) The trained dpRT models can be found under folder `./working directory/dpSWATH/md/dpMS/XXX-XX-XX_XX_XX_XX_XXXXXX/`, please keep the best model based on the 'validation loss' for building library.
-
-  * The examples for training of dpRT model:
-<div align=center><img src='/pics/train_dpRT.PNG'/></div>
 
 
   * The examples for training of dpMS model:
