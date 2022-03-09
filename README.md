@@ -116,4 +116,4 @@ For the training of both dpRT and dpMS, only high quality data are used to train
 
 
 ## Contacts
-Please submit any issues happened to dpMC on issues section or send Emails to dpSWATH.sun@gmail.com.
+Please submit any issues happened to dpSWATH on issues section or send Emails to dpSWATH.sun@gmail.com.
