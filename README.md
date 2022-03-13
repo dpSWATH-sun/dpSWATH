@@ -60,7 +60,7 @@ dpSWATH was developed under Python 3.6.5(Anaconda3 5.2.0 64-bit) with keras tens
 ## Preprocessing of datasets
 For the training of both dpRT and dpMS, only high quality data are used to train the models. 
 * For the datasets used for dpRT, only the retention time of high confident peptides are selected.
-* For the datasets used for dpMS, dpMScore are performed to get the consistent mass spctra for the training of dpMS.
+* For the datasets used for dpMS, dpMScore are performed to get the consistent mass spectra for the training of dpMS.
 
 
 ## Procedures to train models of dpRT
@@ -82,9 +82,9 @@ For the training of both dpRT and dpMS, only high quality data are used to train
 2) Run dpSWATH by calling *`python`* program: `python dpSWATH_main.py`.
 3) After entering the commond line, follow the prompt and enter `1` to select `training` models.
 4) Then select `2` to train dpMS.
-5) Next, please set your working directory after the prompt which will store all your trained dpRT models.
+5) Next, please set your working directory after the prompt which will store all your trained dpMS models.
 6) Put the absolute path of your `pretrained dpMS model` and  `DDA fragmatation file from ProteinPilot` after corresponding prompt.
-7) The trained dpRT models can be found under folder `./working directory/dpSWATH/md/dpMS/XXX-XX-XX_XX_XX_XX_XXXXXX/`, please keep the best model based on the 'validation loss' for building library.
+7) The trained dpMS models can be found under folder `./working directory/dpSWATH/md/dpMS/XXX-XX-XX_XX_XX_XX_XXXXXX/`, please keep the best model based on the 'validation loss' for building library.
 
 
   * The examples for training of dpMS model:
