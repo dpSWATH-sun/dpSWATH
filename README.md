@@ -14,7 +14,7 @@ dpSWATH is developed for building high quality library for SWATH-MS based on dee
 * Both of Windows and Linux platforme are supported.
 * NVIDIA Graphics Processing Unit (GPU) is highly reconmmended; Central Processing Unit (CPU) calculation is also available but depreciated;
 * NVIDIA CUDA 10.0+, CuDNN 7.6.5+ are recomended.
-* Keras with Tensorflow backend.
+* Keras with Tensorflow backend. The tensorflow 2.0 was used for the development of dpSWATH. 
 
 dpSWATH was developed under Python 3.6.5(Anaconda3 5.2.0 64-bit) with keras tensorflow-gpu backend. Hardware including GPU card NVIDIA GeForce 1080Ti, CPU i7-8086K and 128GB RAM were utilized. 
 
